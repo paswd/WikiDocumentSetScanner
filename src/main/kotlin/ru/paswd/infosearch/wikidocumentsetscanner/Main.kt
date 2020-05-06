@@ -40,6 +40,7 @@ fun main(attrs: Array<String>) {
 
     println("===")
     println("Текста всего: ${getPrintableSize(textSize)}")
+    println("Документов всего: $count")
     println("Средний размер документа: ${sourceSize / count} Б")
     println("Средний объём текста в документе: ${textSize / count} Б")
 }
